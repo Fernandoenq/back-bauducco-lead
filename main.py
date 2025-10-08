@@ -8,6 +8,8 @@ app = FastAPI(title="Cadastro de Pessoas", version="1.0.0")
 # === CORS ===
 ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://localhost:3334",
+    "http://162.120.185.211:3334"
     "http://127.0.0.1:3000",
     "http://192.168.0.73:3000",   # front Next na tua máquina (ajuste IP/porta)
     "http://192.168.0.73:3334",        # se usar porta 80
